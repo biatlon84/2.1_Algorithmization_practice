@@ -6,7 +6,7 @@ public class Main {
 	public static void main(String[] args) {
 		double array[] = new double[] { -0.001, 4.23, 1.876, 0.34, -456.3, 0, -234.1 };
 		int min = 0, max = 0;
-		double bu = -111111111110f, bumin = 10000000000f;
+		double bu = Double.NEGATIVE_INFINITY, bumin = Double.POSITIVE_INFINITY;
 
 		for (int i = 0; array.length > i; i++) {
 			if (array[i] > bu) {
