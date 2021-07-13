@@ -1,5 +1,7 @@
 package com.epam.training.sw;
 
+import java.util.Arrays;
+
 //Given a sequence of real numbers a1, a2, ..., an.(Task_2)
 //Replace all members greater than the given Z with this number. Count the number of substitutions.
 public class Main {
@@ -20,11 +22,7 @@ public class Main {
 
 		System.out.println("It was " + sum + " substitutions");
 		i = 0;
-		while (arra.length > i) {
-			System.out.print(" " + arra[i]);
-			i++;
-
-		}
+		System.out.println(Arrays.toString(arra));
 
 	}
 
