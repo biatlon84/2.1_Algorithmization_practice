@@ -1,5 +1,7 @@
 package com.epam.training.k;
 
+//The array A [N] contains natural numbers.(Task_1) 
+//Find the sum of those elements that are multiples of a given K
 public class Main {
 
 	public static void main(String args[]) {
