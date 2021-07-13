@@ -1,4 +1,5 @@
 package com.epam.training.task_3;
+
 //An array of real numbers is given, the dimension
 //of which is N. Calculate how many negative, 
 //positive and zero elements it contains.
@@ -17,9 +18,9 @@ public class Main {
 				}
 			}
 		}
-		System.out.println("po " + po);
-		System.out.println("ne " + ne);
-		System.out.println("z " + z);
+		System.out.println("positive " + po);
+		System.out.println("negative " + ne);
+		System.out.println("zero " + z);
 
 	}
 }
