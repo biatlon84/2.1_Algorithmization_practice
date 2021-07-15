@@ -16,7 +16,7 @@ public class ArrayFr {
 		boolean w = false;
 		while (i < (array[0].length)) {
 			ii = 0;
-			// how frequent
+			// how frequent each element
 			w = false;
 			while (ii < (array[1].length)) {
 				if (ii < i) {
